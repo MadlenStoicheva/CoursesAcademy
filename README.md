@@ -1,5 +1,6 @@
-#CourseAcademy
- Developer: Madlen Stoycheva, Faculty Number: 1601681014 
+# <h3>CourseAcademy<h3> <p>
+ Developer: Madlen Stoycheva</p>, <p>Faculty Number: 1601681014</p>
+ 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
 
 ## Development server
