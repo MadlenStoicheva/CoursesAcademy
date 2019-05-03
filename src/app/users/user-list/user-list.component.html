@@ -1,0 +1,25 @@
+<table class="table table-hover">
+  <thead>
+    <th>Name</th>
+    <th>E-mail</th>
+    <th>Role: Is Admin</th>
+    <th>IsBlocked</th>
+    <th></th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let user of list">
+      <td (click)="onEdit(user)">{{user.name}}</td>
+      <td (click)="onEdit(user)">{{user.email}}</td>
+      <td (click)="onEdit(user)">{{user.role}}</td>
+      <td (click)="onEdit(user)">{{user.isBlocked}}</td>
+      <td><a class="btn text-danger" (click)="onDelete(user.id)"><i class="fa fa-trash"></i></a></td>
+    </tr>
+  </tbody>
+  <!--
+  <tfoot>
+    <td>
+        <app-is-user-blocked></app-is-user-blocked>
+    </td>
+  </tfoot>
+  -->
+</table>

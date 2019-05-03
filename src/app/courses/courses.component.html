@@ -1,0 +1,11 @@
+<div  *ngIf="auth.isLoggedIn()"  class="row">
+    <div class="col-md-5" *ngIf="auth.isUserAdmin()" style="margin:0 auto;">
+      <app-course></app-course>
+    </div>
+  </div>
+    <div class="row">
+    <div class="col-md-7" style="margin:0 auto;">
+      <app-course-list></app-course-list>
+    </div>
+  </div>
+ 

@@ -1,0 +1,15 @@
+<h1 class="text-center">All Users in Courses</h1>
+<table class="table table-hover">
+    <thead>
+      <th>User Email</th>
+      <th>Title</th>
+      <th>Description</th>
+    </thead>
+    <tbody>
+      <tr *ngFor="let userCourse of allList">
+        <td >{{userCourse.userEmail}}</td>
+        <td >{{userCourse.course.title}}</td>
+        <td >{{userCourse.course.description}}</td>
+      </tr>
+    </tbody>
+  </table>
